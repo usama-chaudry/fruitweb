@@ -1,0 +1,139 @@
+.list-group-item{
+    border: none;
+}
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background-color: green;
+    color: white;
+    border-radius: 100px;
+}
+.list-group-item.active{
+    background-color: green;
+
+}
+.background{
+    background-image: url(./Assignment2/src/slide2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    font-size: 2rem;
+}
+.form-control{
+   
+    /* @media screen (min-width:610px) {
+
+        width:50%;
+        
+    } */
+
+    width: 60%;
+}
+.sp{
+    font-size: 2rem;
+    color: green;
+    border: 1px dotted green;
+   
+
+}
+
+html {
+    font-size: 85%; 
+}
+
+    @media (max-width: 75em) {
+      html {
+        font-size: 65%; } }
+    @media (max-width: 56.25em) {
+      html {
+        font-size: 60%; } }
+    @media (min-width: 112.5em) {
+      html {
+        font-size: 100%; } 
+    }
+
+
+
+.border {
+    border: 2px dotted green!important;
+}
+.image{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.fa-envelope-square,
+.fa-home{
+    color: green;
+}
+.fa-cc-mastercard{
+    color: red;
+
+}
+.fa-cc-paypal{
+    color: blue;
+}
+.font{
+    font-size: 1.2rem;
+
+}
+.tough{
+    height: 100%;
+    color: white;
+
+}
+.fa-mobile{
+    color: black;
+}
+.pic1{
+    background-image: url(./Assignment2/src/ad1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.pic2{
+    background-image: url(./Assignment2/src/ad4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+.pic3{
+    background-image: url(./Assignment2/src/ad2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.pic4{
+    background-image: url(./Assignment2/src/ad3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.row{
+    grid-column-gap: 3rem;
+
+}
+/* .view{
+    width: 100%;
+} */
+.border-dark{
+    border: 10px solid green
+    ;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+
+}
+.list{
+    border: none;
+    color: white;
+}
